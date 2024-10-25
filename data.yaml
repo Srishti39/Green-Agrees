@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['at risk', 'fresh', 'rotten']
+
+roboflow:
+  workspace: obs-t6paq
+  project: tomato_defects
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/obs-t6paq/tomato_defects/dataset/3
